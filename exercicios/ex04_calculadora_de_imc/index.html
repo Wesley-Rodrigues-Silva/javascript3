@@ -15,7 +15,7 @@
             <div id="container-h4">
                 <h4>IMC</h4>
                 <h4>Resultado</h4>
-            </div> <br>
+            </div>
             <li class="container-itens">
                 <span>Menor que 18,5</span>
                 <span class="indice">Abaixo do peso</span>
@@ -42,15 +42,19 @@
             </li>
         </ul>
 
-        <form action="">
+        <form id="form">
             <h3>Calcule seu IMC</h3> <br>
             <label for="peso">Peso:</label>
-            <input type="text" name="" id="peso">
+            <input type="number" name="" id="peso" step="any">
 
             <label for="altura">Altura:</label>
-            <input type="password" name="" id="altura">
-            <button>Enviar</button>
+            <input type="number" name="" id="altura" step="any">
+            <button id="calcular">Enviar</button>
+            
         </form>
+
+        <div id="resultado"></div>
+        
     </section>
     <script src="./assets/js/main.js"></script>
 </body>

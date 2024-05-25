@@ -13,7 +13,7 @@ body {
     padding: 0;
     background-color: var(--primary-color);
     font-family: sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.5em;
 }
 
@@ -32,9 +32,13 @@ body {
 
 #container-h4 {
     display: flex;
-    gap: 40%;
     margin-top: 30px;
+    margin-bottom: 20px;
 
+}
+
+#container-h4 h4{
+    flex: 1;
 }
 
 .container-itens {
@@ -46,6 +50,11 @@ body {
     flex: 1;
 }
 
+#resultado {
+    transform: translateY(5px);
+    text-align: center;
+    padding: 10px;
+}
 
 form input, form label, form button {
     display: block;
