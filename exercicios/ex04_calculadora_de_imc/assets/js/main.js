@@ -30,6 +30,4 @@ function calcularImc(){
         resultado.textContent = `Seu IMC é: ${imc.toFixed(2)} (Obesidade Grau III)`
     }
         
-
-    
 }
