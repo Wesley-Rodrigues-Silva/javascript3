@@ -77,7 +77,7 @@ switch (diaSemana){
     }
 }
 
-const data = new Date('2024-06-03 14:00:00');
+const data = new Date();
 const diaSemana = data.getDay();
 const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
 
