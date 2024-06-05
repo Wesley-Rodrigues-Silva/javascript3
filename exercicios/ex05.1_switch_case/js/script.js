@@ -1,3 +1,4 @@
-const resp = document.querySelector('#container h1');
+const resp = document.querySelector('#container');
 const data = new Date();
-resp.innerHTML = data.toLocaleDateString('pt-BR', {dateStyle: 'full', timeStyle: 'full'});
+resp.innerHTML = data.toLocaleString('pt-BR', {dateStyle: 'full', timeStyle: 'short'});
+
